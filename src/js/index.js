@@ -37,7 +37,7 @@ botoesCarrosel.forEach((botao, indice) => {
         selecionarBotaoCarossel(botao);
 
         // - passo 5 - esconder a imagem ativa de fundo anterior
-        esconderImagemAtiva();
+        esconderImagemAtivaDeFundo();
 
         // - passo 6 - fazer aparecer a imagem de fundo correspondente ao botão clicado
         monstrarImagemDeFundo(indice);  
